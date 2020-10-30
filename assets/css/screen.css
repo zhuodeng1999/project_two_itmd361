@@ -14,6 +14,23 @@ html{
     font-size: 1.25em; 
     line-height: 1.25em; 
     padding: 18px; 
-    background: #133337;
+    background: #EEEEEE;
 }
 
+h1 {
+    text-align: center;
+    font-size: 1.5em; 
+    line-height: 1.25em; 
+    padding-bottom: 0.6875em; 
+  }
+
+.nav a {
+    display: block;
+    padding: 0.6666em;
+    text-decoration: none;
+    background: #82d682;
+    color: #000000;
+  }
+.nav a:hover {
+    background: #90ee90;
+  }

@@ -23,7 +23,12 @@ h1 {
     line-height: 1.25em; 
     padding-bottom: 0.6875em; 
   }
-
+  h2 {
+    text-align: center;
+    font-size: 1.125em; 
+    line-height: 1.1125em; 
+    padding-bottom: 0.5em; 
+  }
 .nav a {
     display: block;
     padding: 0.6666em;
@@ -33,4 +38,50 @@ h1 {
   }
 .nav a:hover {
     background: #90ee90;
+  }
+
+
+figure img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: top;
+  width: 70%;
+  }
+figcaption {
+  text-align: center;
+  }
+
+ @media screen and (min-width: 21.25em) { 
+
+  .nav a {
+    font-size: 0.75em;
+    }
+  h2 {
+    padding-top: 0.6em; 
+    }
+  html {
+    padding: 0.75em 5%;
+    }
+  
+@media screen and (min-width: 35.75em) { 
+  h2 {
+    padding-top: 3.6em; 
+    }
+    
+  .nav li {
+    float: left;
+    width: 33.3333333333%;
+    text-align: center;
+    }
+  .nav a {
+    font-size: 1.125em; 
+  }
+  html {
+    padding: 2.125em 15% ;
+    }
+  
+}
+ 
+
   }

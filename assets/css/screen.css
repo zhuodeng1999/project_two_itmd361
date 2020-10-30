@@ -1,44 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-/* stylelint-disable*/
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-disable */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
 /* Begin site styles below */
 
-html{
-    font-family: 'Crimson Text', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
-    font-size: 1.25em; 
-    line-height: 1.25em; 
-    padding: 18px; 
-    background: #EEEEEE;
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125em;
+  line-height: 1.25em;
+  padding: 1.25em;
+  background: #EEEEEE;
 }
-
 h1 {
-    text-align: center;
-    font-size: 1.5em; 
-    line-height: 1.25em; 
-    padding-bottom: 0.6875em; 
-  }
-  h2 {
-    text-align: center;
-    font-size: 1.125em; 
-    line-height: 1.1125em; 
-    padding-bottom: 0.5em; 
-  }
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  padding-bottom: 0.6875em;
+}
+h2 {
+  text-align: center;
+  font-size: 1.125em;
+  line-height: 1.1125em;
+  padding-bottom: 0.5em;
+}
 .nav a {
-    display: block;
-    padding: 0.6666em;
-    text-decoration: none;
-    background: #82d682;
-    color: #000000;
-  }
+  display: block;
+  padding: 0.6666em;
+  text-decoration: none;
+  background: #82d682;
+  color: #000000;
+}
 .nav a:hover {
-    background: #90ee90;
-  }
+  background: #90ee90;
+}
 
 
 figure img {
@@ -47,41 +46,46 @@ figure img {
   display: block;
   float: top;
   width: 70%;
-  }
+}
 figcaption {
   text-align: center;
-  }
+}
 
- @media screen and (min-width: 21.25em) { 
-
-  .nav a {
-    font-size: 0.75em;
-    }
-  h2 {
-    padding-top: 0.6em; 
-    }
+@media screen and (min-width: 21.25em) {
   html {
     padding: 0.75em 5%;
-    }
-  
-@media screen and (min-width: 35.75em) { 
+  }
+  .nav a {
+    font-size: 0.75em;
+  }
   h2 {
-    padding-top: 3.6em; 
-    }
-    
+    padding-top: 0.6em;
+  }
+
+}
+@media screen and (min-width: 35.75em) {
+  html {
+    padding: 2.125em 15% ;
+  }
+  h2 {
+    padding-top: 3.6em;
+  }
+
   .nav li {
     float: left;
     width: 33.3333333333%;
     text-align: center;
-    }
+  }
   .nav a {
-    font-size: 1.125em; 
+    font-size: 1.125em;
   }
-  html {
-    padding: 2.125em 15% ;
-    }
-  
 }
- 
 
-  }
+
+
+
+
+
+
+
+
